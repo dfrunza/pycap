@@ -47,7 +47,7 @@ def pycap_sendpacket(Pcap pcap, bytes buf, int size):
 def pycap_next_ex(Pcap pcap):
     cdef pcap_pkthdr* hdr = <pcap_pkthdr*>0
     cdef const unsigned char* data = <const unsigned char*>0
-    cdef bytes data_bytes = bytes()
+    cdef bytes data_bytes = 0
     with nogil:
         status = pcap_next_ex(<pcap_t*>pcap, &hdr, &data)
     if status == 1:
