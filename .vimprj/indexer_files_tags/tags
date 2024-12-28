@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.8.0	/39e840e6/
+PCAP_D_INOUT	/home/dumitru/Work/_pycap/pycap.pxd	/^        PCAP_D_INOUT = 0,$/;"	v	line:17	language:Python
+PYCAP_D_IN	/home/dumitru/Work/_pycap/pycap.pyx	/^    PYCAP_D_IN    = PCAP_D_IN$/;"	v	line:8	language:Python
+PYCAP_D_INOUT	/home/dumitru/Work/_pycap/pycap.pyx	/^    PYCAP_D_INOUT = PCAP_D_INOUT$/;"	v	line:7	language:Python
+PYCAP_D_OUT	/home/dumitru/Work/_pycap/pycap.pyx	/^    PYCAP_D_OUT   = PCAP_D_OUT$/;"	v	line:9	language:Python
+PYLIB_VERSION	/home/dumitru/Work/_pycap/setup.py	/^PYLIB_VERSION = '%s.%s' % (sys.version_info.major, sys.version_info.minor)$/;"	v	line:6	language:Python
+PYMOD_VERSION	/home/dumitru/Work/_pycap/setup.py	/^PYMOD_VERSION = '%s_%s' % (sys.version_info.major, sys.version_info.minor)$/;"	v	line:7	language:Python
+PYTHON_VERSION	/home/dumitru/Work/_pycap/__init__.py	/^PYTHON_VERSION = '%s.%s' % (sys.version_info.major, sys.version_info.minor)$/;"	v	line:3	language:Python
+__all__	/home/dumitru/Work/_pycap/__init__.py	/^__all__ = [$/;"	v	line:14	language:Python
+devfd	/home/dumitru/Work/_pycap/test.py	/^devfd = pycap_get_selectable_fd(pcap)$/;"	v	line:13	language:Python
+main	/home/dumitru/Work/_pycap/test.py	/^def main():$/;"	f	line:16	language:Python	signature:()
+pcap	/home/dumitru/Work/_pycap/test.py	/^pcap = pycap_create(b"veth1", errbuf=bytearray(256))$/;"	v	line:5	language:Python
+pycap_activate	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_activate(Pcap pcap):$/;"	f	line:39	language:Python	signature:(Pcap pcap)
+pycap_close	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_close(Pcap pcap):$/;"	f	line:15	language:Python	signature:(Pcap pcap)
+pycap_create	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_create(bytes source, bytearray errbuf):$/;"	f	line:11	language:Python	signature:(bytes source, bytearray errbuf)
+pycap_get_selectable_fd	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_get_selectable_fd(Pcap pcap):$/;"	f	line:57	language:Python	signature:(Pcap pcap)
+pycap_next_ex	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_next_ex(Pcap pcap):$/;"	f	line:47	language:Python	signature:(Pcap pcap)
+pycap_sendpacket	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_sendpacket(Pcap pcap, bytes buf, int size):$/;"	f	line:43	language:Python	signature:(Pcap pcap, bytes buf, int size)
+pycap_set_immediate_mode	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_set_immediate_mode(Pcap pcap, int immediate_mode):$/;"	f	line:27	language:Python	signature:(Pcap pcap, int immediate_mode)
+pycap_set_promisc	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_set_promisc(Pcap pcap, int promisc):$/;"	f	line:23	language:Python	signature:(Pcap pcap, int promisc)
+pycap_set_snaplen	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_set_snaplen(Pcap pcap, int snaplen):$/;"	f	line:19	language:Python	signature:(Pcap pcap, int snaplen)
+pycap_setdirection	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_setdirection(Pcap pcap, pcap_direction_t direction):$/;"	f	line:35	language:Python	signature:(Pcap pcap, pcap_direction_t direction)
+pycap_setnonblock	/home/dumitru/Work/_pycap/pycap.pyx	/^def pycap_setnonblock(Pcap pcap, int nonblock, bytearray errbuf):$/;"	f	line:31	language:Python	signature:(Pcap pcap, int nonblock, bytearray errbuf)
+status	/home/dumitru/Work/_pycap/test.py	/^status = pycap_activate(pcap)$/;"	v	line:9	language:Python
+status	/home/dumitru/Work/_pycap/test.py	/^status = pycap_set_immediate_mode(pcap, True)$/;"	v	line:8	language:Python
+status	/home/dumitru/Work/_pycap/test.py	/^status = pycap_set_promisc(pcap, True)$/;"	v	line:7	language:Python
+status	/home/dumitru/Work/_pycap/test.py	/^status = pycap_set_snaplen(pcap, 65536)$/;"	v	line:6	language:Python
+status	/home/dumitru/Work/_pycap/test.py	/^status = pycap_setdirection(pcap, PYCAP_D_IN)$/;"	v	line:12	language:Python
+status	/home/dumitru/Work/_pycap/test.py	/^status = pycap_setnonblock(pcap, False, errbuf=bytearray(256))$/;"	v	line:11	language:Python
